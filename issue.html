@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Issue Book | Library Management System</title>
+    <link rel="stylesheet" href="/css/issue.css">
+</head>
+<body>
+
+<header>
+    <h2>Library Management System</h2>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="issue.html">Issue Book</a></li>
+        <li><a href="return.html">Return Book</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
+
+<div class="issue-container">
+    <h3>Issue Book</h3>
+
+    <form>
+        <label for="studentId">Student ID</label>
+        <input type="text" id="studentId" placeholder="Enter Student ID" required>
+
+        <label for="studentName">Student Name</label>
+        <input type="text" id="studentName" placeholder="Enter Student Name" required>
+
+        <label for="bookId">Book ID</label>
+        <input type="text" id="bookId" placeholder="Enter Book ID" required>
+
+        <label for="bookName">Book Name</label>
+        <input type="text" id="bookName" placeholder="Enter Book Name" required>
+
+        <label for="issueDate">Issue Date</label>
+        <input type="date" id="issueDate" required>
+
+        <button type="submit">Issue Book</button>
+    </form>
+</div>
+<script src="/js/issue.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+      
+
+header {
+     background-color:#ffffff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-image: url('/data/images/istockphoto-1498878143-612x612.jpg');
+}
+
+nav {
+    background-color: #1f2937; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    display: block;
+}
+
+nav ul li a:hover {
+   background-color: #3b82f6;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.issue-container {
+  width: 40%;
+  margin: 40px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.issue-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3b2f2f;
+}
+
+
+.issue-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.issue-container label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.issue-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.issue-container button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #3b2f2f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.issue-container button:hover {
+  background-color:gray;
+}
+
+
+
+
