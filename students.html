@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students | Library Management System</title>
+    <link rel="stylesheet" href="/css/student.css">
+</head>
+<body>
+
+<header>
+    <h2>Library Management System</h2>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="student.html" class="active">Students</a></li>
+        <li><a href="issue.html">Issue Book</a></li>
+        <li><a href="return.html">Return Book</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
+
+<div class="students-container">
+    <h3>Student List</h3>
+    <input type="text" id="searchInput" placeholder="Search by Student ID or Name" onkeyup="searchStudent()">
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>S001</td>
+                <td>Annalakshmi</td>
+                <td>20</td>
+                <td>9876543210</td>
+                <td>annam@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>S002</td>
+                <td>Karthika</td>
+                <td>21</td>
+                <td>9123456780</td>
+                <td>karthika@gmail.com</td>
+            </tr>
+            <tr>
+                <td>S003</td>
+                <td>Manju</td>
+                <td>21</td>
+                <td>9123456780</td>
+                <td>Manju@gmail.com</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+   <script src="/js/student.js"></script>
+
+</body>
+</html>
